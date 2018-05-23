@@ -2,13 +2,13 @@
 using namespace std;
 
 int main() {
-int n;
-std::cin >> n;
+    int n;
+    cin >> n;
 
-for (int i=1; i<= n; i++) {
-    std::cout << i << ' ';
-    }
+    for (int i = 1 ; i <= n; i++) {
+        cout << i << ' ';
+        }
 
-std::cout << endl;
-return (0);
+    cout << endl;
+    return (0);
 }
